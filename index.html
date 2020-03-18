@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- NavBar with Timer and HighScores' link  -->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">High Scores</a>
+        </li>
+        <li class="nav-item">
+            <h1 id = "timer">20</h1>
+          </li>
+          
+
+        
+      </ul>
+      
+
+    <!-- Container for all that will be displayed -->
+<div class = "container">
+    <!-- list of options with instructions on top -->
+    <button id = buttonStart type="button" class="btn btn-light">Start Your Quiz</button>
+    <ol class="list-group" id = "list">
+              
+  <h1 id = quest>Pick a Topic and Start your Quiz!</h1>
+        <br>
+        <li>
+            <button  id = "buttonFirst" type="button" class="btn btn-outline-danger press">HTML</button>
+        </li>
+
+        <li>
+            <button  id = "buttonSecond" type="button" class="btn btn-outline-primary press">CSS</button>
+        </li>
+        
+        <li>  
+            <button  id = "buttonThird" type="button" class="btn btn-outline-warning press">JAVASCRIPT</button>
+        </li>
+        <li>
+            <button  id = "buttonFourth" type="button" class="btn btn-outline-secondary press">AlGORITHMS</button>
+        </li>
+        
+    </ol>
+    <!-- Space to Display correct/incorrect message -->
+    <h1 class="display-4" id = correction>correct!</h1>
+
+</container>
+ 
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

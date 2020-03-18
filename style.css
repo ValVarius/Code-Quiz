@@ -1,0 +1,29 @@
+body{
+    color: white;
+    background-color: black;
+}
+body li  {
+    list-style-position: inside;
+
+
+}
+button{
+    margin-top: 5px;
+    min-width: 450px;
+}
+
+.container {
+    /* border-style: solid; */
+    
+    display: inline-block;
+    text-align: center;
+}
+#timer{
+    margin-left: 90vw;
+}
+#list{
+    visibility: hidden;
+}
+#correction{
+    visibility: hidden;
+}
